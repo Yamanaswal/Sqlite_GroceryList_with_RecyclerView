@@ -32,7 +32,7 @@
     <Button
         android:id="@+id/plus_button"
         android:text="+"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:layout_below="@+id/editText_name"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
@@ -43,7 +43,7 @@
     <Button
         android:id="@+id/minus_button"
         android:text="-"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:layout_centerHorizontal="true"
         android:layout_marginRight="15dp"
         android:layout_below="@+id/editText_name"
@@ -54,9 +54,11 @@
         <Button
             android:id="@+id/add_button"
             android:text="ADD"
-            android:layout_marginTop="60dp"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
-            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
